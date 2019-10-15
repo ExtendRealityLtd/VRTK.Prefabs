@@ -1,0 +1,45 @@
+{
+    "name": "io.extendreality.vrtk.prefabs",
+    "displayName": "VRTK Prefabs",
+    "description": "A collection of productive prefabs for rapidly building spatial computing solutions in the Unity software.",
+    "version": "1.0.0",
+    "unity": "2018.3",
+    "unityRelease": "10f1",
+    "keywords": [
+        "pattern",
+        "spatial",
+        "xr",
+        "vr",
+        "ar",
+        "mr"
+    ],
+    "homepage": "https://github.com/ExtendRealityLtd/VRTK.Prefabs/",
+    "bugs": {
+        "url": "https://github.com/ExtendRealityLtd/VRTK.Prefabs/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@github.com/ExtendRealityLtd/VRTK.Prefabs.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Extend Reality Ltd",
+        "email": "hello@extendreality.io",
+        "url": "https://github.com/ExtendRealityLtd"
+    },
+    "dependencies": {
+        "io.extendreality.zinnia.unity": "1.0.2"
+    },
+    "files": [
+        "*.md",
+        "*.meta",
+        "*.asmdef",
+        "*.xml",
+        "CameraRig",
+        "Helpers",
+        "Interactions",
+        "Locomotion",
+        "Pointers",
+        "SharedResources"
+    ]
+}
