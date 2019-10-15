@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.1](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.0...v1.0.1) (2019-10-15)
+
+#### Bug Fixes
+
+* **CHANGELOG.md:** add meta file for Unity to consume ([c9b51f0](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/c9b51f03e7fe60c54e5247ddb7623ff7cb4845cd))
+  > Unity would complain if the package was included in another project due to packages being read only and therefore not being able to generate the .meta file for the CHANGELOG.md file.
+  > 
+  > This fix simply adds a meta file in manually.
+
 ## 1.0.0 (2019-10-15)
 
 #### Features
