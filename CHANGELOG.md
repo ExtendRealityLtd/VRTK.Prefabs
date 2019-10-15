@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.2](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.1...v1.0.2) (2019-10-15)
+
+#### Bug Fixes
+
+* **README.md:** provide correct link for package releases ([1027f04](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/1027f04f222dd278f9daa5478e7f2ce235e01a57))
+  > The package release link was incorrect and pointing to VRTK. This has now been updated and references specific to VRTK have been removed.
+  > 
+  > The README.md now reads as if it is specific to the VRTK prefabs.
+
 ### [1.0.1](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.0...v1.0.1) (2019-10-15)
 
 #### Bug Fixes
