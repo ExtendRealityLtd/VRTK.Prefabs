@@ -4,7 +4,7 @@
 > A collection of productive prefabs for rapidly building spatial computing solutions in the Unity software.
 
 [![Slack][Slack-Badge]][Slack]
-[![Documentation][Academy-Badge]][VRTK.Academy]
+[![Documentation][Academy-Badge]][Academy]
 [![Videos][Videos-Badge]][Videos]
 [![Twitter][Twitter-Badge]][Twitter]
 [![License][License-Badge]][License]
@@ -12,7 +12,9 @@
 
 ## Beta Disclaimer
 
-VRTK v4 has not yet been released fully is still in the beta phase meaning there may still be undiscovered bugs, missing features and a lack of usable documentation. All of these things are being worked on but progress is slow as there is only one person actively working on VRTK v4 in their spare time so please be patient and respectful. You are free to use VRTK v4 in any way you wish, but if you feel you will struggle figuring stuff out for yourself without detailed documentation then it may be better off if you wait until the full release of VRTK v4. 
+The VRTK Prefabs have not yet been released fully are still in a beta phase meaning there may still be undiscovered bugs, missing features and a lack of usable documentation. All of these things are being worked on but progress is slow as there is only one person actively working on these VRTK Prefabs in their spare time so please be patient and respectful. You are free to use the VRTK Prefabs in any way you wish, but if you feel you will struggle figuring stuff out for yourself without detailed documentation then it may be better off if you wait until the full release of the VRTK Prefabs.
+
+The prefabs contained in this repo will eventually be separated out into their own repositories and packages.
 
 ## Introduction
 
@@ -24,7 +26,7 @@ The VRTK Prefabs aim to make building spatial computing solutions in the [Unity]
 
 ### Documentation
 
-Visit the [VRTK.Academy] for a collection of educational content to help you get the most out of building spatial computing solutions with VRTK.
+Visit the [Academy] for a collection of educational content to help you get the most out of building spatial computing solutions with the VRTK Prefabs.
 
 ### Setting up the project
 
@@ -92,7 +94,7 @@ These materials are not sponsored by or affiliated with Unity Technologies or it
 [Unity]: https://unity3d.com/
 [License]: LICENSE.md
 [Project-Manifest]: https://docs.unity3d.com/Manual/upm-manifestPrj.html
-[Latest-Release]: https://github.com/ExtendRealityLtd/VRTK/releases/latest
+[Latest-Release]: https://github.com/ExtendRealityLtd/VRTK.Prefabs/releases
 
 [Slack-Badge]: https://img.shields.io/badge/slack-chat-E24663.svg
 [Academy-Badge]: https://img.shields.io/badge/vrtk-academy-3484C6.svg
@@ -102,7 +104,7 @@ These materials are not sponsored by or affiliated with Unity Technologies or it
 [License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.svg
 
 [Slack]: http://invite.vrtk.io
-[VRTK.Academy]: https://academy.vrtk.io
+[Academy]: https://academy.vrtk.io
 [Videos]: http://videos.vrtk.io
 [Twitter]: https://twitter.com/VR_Toolkit
 [Backlog]: http://tracker.vrtk.io
