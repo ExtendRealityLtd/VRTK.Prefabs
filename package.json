@@ -28,7 +28,7 @@
         "url": "https://github.com/ExtendRealityLtd"
     },
     "dependencies": {
-        "io.extendreality.zinnia.unity": "1.0.2"
+        "io.extendreality.zinnia.unity": "1.0.3"
     },
     "files": [
         "*.md",
