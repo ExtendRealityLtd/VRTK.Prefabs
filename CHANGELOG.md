@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.0.3](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.2...v1.0.3) (2019-10-20)
+
+#### Documentation
+
+* **CONTRIBUTING:** do not include copyright notices ([3848cd8](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/3848cd8d10009c97b21f4a7283541eb489a33b42)), closes [/help.github.com/en/articles/github-terms-of-service#6](https://github.com//help.github.com/en/articles/github-terms-of-service/issues/6)
+  > Authors will continue to retain the copyright for the code committed but do so under the license stated in the repository as outlined in the [GitHub Terms Of
+
+#### Miscellaneous Chores
+
+* **deps:** use latest pipeline templates ([371ace3](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/371ace3d94dcba4561dbcfc5248a401309db4161))
+
 ### [1.0.2](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.1...v1.0.2) (2019-10-15)
 
 #### Bug Fixes
