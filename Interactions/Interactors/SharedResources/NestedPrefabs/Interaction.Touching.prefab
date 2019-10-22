@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a5cea3d73a4234aa48131d662d170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoRejectStates: 0
   componentTypes: {fileID: 1474031633576177774}
 --- !u!114 &1474031633576177774
 MonoBehaviour:
@@ -150,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53fca345d7764be0a2f6ce49a7d64b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoRejectStates: 0
   rule:
     field: {fileID: 677417551805029599}
 --- !u!114 &677417551805029599
@@ -164,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a5cea3d73a4234aa48131d662d170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoRejectStates: 0
   componentTypes: {fileID: 1617230785627786039}
 --- !u!114 &1617230785627786039
 MonoBehaviour:
