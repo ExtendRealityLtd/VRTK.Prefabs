@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.7](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.6...v1.0.7) (2019-10-22)
+
+#### Bug Fixes
+
+* **Interactions:** interactor to emit collision stopped on disable ([34d4f2f](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/34d4f2faa95b07c06a7d05d1dcae4dfbe11e5f08))
+  > There was an issue where an Interactor would not emit the CollisionStopped event if the Interactor was disabled. This was due to the internal Interactor Rule becoming disabled and rules would always be rejected on disabled components.
+  > 
+  > A recent change in Zinnia now means the Rule can still be queried even if the component is on a deactivated GameObject. This fix simply allows the Rule within the Interactor to still be queried when the Interactor is disabled and therefore the CollisionStopped event still correctly emits.
+
 ### [1.0.6](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.5...v1.0.6) (2019-10-22)
 
 #### Miscellaneous Chores
