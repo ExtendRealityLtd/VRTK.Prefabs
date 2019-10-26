@@ -1,6 +1,6 @@
 [![VRTK logo][VRTK-Image]](#)
 
-> ### VRTK Prefabs v4 beta - Virtual Reality Toolkit Prefabs
+> ### VRTK Prefabs `v4-beta`
 > A collection of productive prefabs for rapidly building spatial computing solutions in the Unity software.
 
 [![Slack][Slack-Badge]][Slack]
@@ -14,23 +14,28 @@
 
 The VRTK Prefabs have not yet been released fully are still in a beta phase meaning there may still be undiscovered bugs, missing features and a lack of usable documentation. All of these things are being worked on but progress is slow as there is only one person actively working on these VRTK Prefabs in their spare time so please be patient and respectful. You are free to use the VRTK Prefabs in any way you wish, but if you feel you will struggle figuring stuff out for yourself without detailed documentation then it may be better off if you wait until the full release of the VRTK Prefabs.
 
-The prefabs contained in this repo will eventually be separated out into their own repositories and packages.
+The prefabs contained in this repository will eventually be separated out into their own repositories and packages.
 
 ## Introduction
 
 The VRTK Prefabs aim to make building spatial computing solutions in the [Unity] software fast and easy for beginners as well as experienced developers.
 
-> **Requires** the Unity software version 2018.3.10f1 (or above).
+> **Requires** the Unity software version `2018.3.10f1` (or above).
+
+## Releases
+
+| Branch  | Version                                          | Explanation                        |
+|---------|--------------------------------------------------|------------------------------------|
+| release | [![Release][Version-Release]][Releases]          | Stable, production-ready           |
+| preview | [![(Pre-)Release][Version-Prerelease]][Releases] | Experimental, not production-ready |
+
+Releases follow the [Semantic Versioning (SemVer) system][SemVer].
 
 ## Getting Started
 
-### Documentation
-
-Visit the [Academy] for a collection of educational content to help you get the most out of building spatial computing solutions with the VRTK Prefabs.
-
 ### Setting up the project
 
-* Create a new project in the Unity software version 2018.3.10f1 (or above) using 3D Template or open an existing project.
+* Create a new project in the Unity software version `2018.3.10f1` (or above) using `3D Template` or open an existing project.
 * Ensure `Virtual Reality Supported` is checked:
   * In the Unity software select `Main Menu -> Edit -> Project Settings` to open the `Project Settings` window.
   * Select `Player` from the left hand menu in the `Project Settings` window.
@@ -42,7 +47,7 @@ Visit the [Academy] for a collection of educational content to help you get the 
   * In the `Player` settings panel expand `Other Settings`.
   * Ensure the `Scripting Runtime Version` is set to `.NET 4.x Equivalent`.
 
-> Note: Unity 2019.1 requires additional project setup before importing the VRTK Prefabs.
+> Note: Unity `2019.1` (or above) requires additional project setup before importing the VRTK Prefabs.
 
 * Download and install the `XR Legacy Input Helpers` from the Unity Package Manager.
   * In the Unity software select `Main Menu -> Window -> Package Manager` to open the `Package Manager` window.
@@ -58,7 +63,7 @@ Visit the [Academy] for a collection of educational content to help you get the 
     * Ensure `io.extendreality` is part of `scopes`.
   * Add `io.extendreality.vrtk.prefabs` to `dependencies`, stating the latest version.
 
-  A minimal example ends up looking like this. Please note that the version `X.Y.Z` stated here is to be replaced with [the latest released version][Latest-Release].
+  A minimal example ends up looking like this. Please note that the version `X.Y.Z` stated here is to be replaced with [the latest released version][Latest-Release] which is currently [![Release][Version-Release]][Releases].
   ```json
   {
     "scopedRegistries": [
@@ -78,9 +83,17 @@ Visit the [Academy] for a collection of educational content to help you get the 
   ```
 * Switch back to the Unity software and wait for it to finish importing the added package.
 
+## Documentation
+
+Visit the [Academy] for a collection of educational content to help you get the most out of building spatial computing solutions with the VRTK Prefabs.
+
 ## Contributing
 
-We're not currently in a place where accepting contributions would be helpful. But as soon as we're ready we'll let you know!
+Please refer to the Extend Reality [Contributing guidelines] and the [Unity project coding conventions].
+
+## Code of Conduct
+
+Please refer to the Extend Reality [Code of Conduct].
 
 ## License
 
@@ -108,3 +121,11 @@ These materials are not sponsored by or affiliated with Unity Technologies or it
 [Videos]: http://videos.vrtk.io
 [Twitter]: https://twitter.com/VR_Toolkit
 [Backlog]: http://tracker.vrtk.io
+
+[Releases]: ../../releases
+[SemVer]: https://semver.org/
+[Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/VRTK.Prefabs.svg
+[Version-Prerelease]: https://img.shields.io/github/release-pre/ExtendRealityLtd/VRTK.Prefabs.svg?label=pre-release&colorB=orange
+[Contributing guidelines]: https://github.com/ExtendRealityLtd/.github/blob/master/CONTRIBUTING.md
+[Unity project coding conventions]: https://github.com/ExtendRealityLtd/.github/blob/master/CONVENTIONS/UNITY3D.md
+[Code of Conduct]: https://github.com/ExtendRealityLtd/.github/blob/master/CODE_OF_CONDUCT.md
