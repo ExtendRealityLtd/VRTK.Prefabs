@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.7...v1.1.0) (2019-10-27)
+
+#### Features
+
+* **.github:** use organization .github repository ([76597fb](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/76597fb177972d15873382d45a87d064a9c6f1b0))
+  > GitHub provides a mechanism where a global organization .github repo can be used as a fallback to provide default community health files instead of repeating the same files across multiple repos.
+  > 
+  > ExtendRealityLtd now has a `.github` repo which should be used as it provides the correct details for this repo.
+  > 
+  > The README.md has been updated to provide definitive links to the relevant files.
+
 ### [1.0.7](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.6...v1.0.7) (2019-10-22)
 
 #### Bug Fixes
