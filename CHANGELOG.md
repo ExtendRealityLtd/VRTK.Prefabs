@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.1.1](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.1.0...v1.1.1) (2019-10-28)
+
+#### Bug Fixes
+
+* **README.md:** provide more concise release data and update info ([e3dc1a2](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/e3dc1a29196f59548ecb0cfdca403444ff1e12a1))
+  > The Releases section has been removed and is now just a simple badge at the top of the README. There has been an additional section in `Getting Started` on how to update the package via the Unity Package Manager.
+  > 
+  > The links have also been ordered in the order of appearance in the document.
+
 ## [1.1.0](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.0.7...v1.1.0) (2019-10-27)
 
 #### Features
