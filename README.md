@@ -3,12 +3,14 @@
 > ### VRTK Prefabs `v4-beta`
 > A collection of productive prefabs for rapidly building spatial computing solutions in the Unity software.
 
-[![Slack][Slack-Badge]][Slack]
-[![Documentation][Academy-Badge]][Academy]
-[![Videos][Videos-Badge]][Videos]
-[![Twitter][Twitter-Badge]][Twitter]
+[![Release][Version-Release]][Releases]
 [![License][License-Badge]][License]
 [![Backlog][Backlog-Badge]][Backlog]
+[![Documentation][Academy-Badge]][Academy]
+
+[![Slack][Slack-Badge]][Slack]
+[![Videos][Videos-Badge]][Videos]
+[![Twitter][Twitter-Badge]][Twitter]
 
 ## Beta Disclaimer
 
@@ -21,15 +23,6 @@ The prefabs contained in this repository will eventually be separated out into t
 The VRTK Prefabs aim to make building spatial computing solutions in the [Unity] software fast and easy for beginners as well as experienced developers.
 
 > **Requires** the Unity software version `2018.3.10f1` (or above).
-
-## Releases
-
-| Branch  | Version                                          | Explanation                        |
-|---------|--------------------------------------------------|------------------------------------|
-| release | [![Release][Version-Release]][Releases]          | Stable, production-ready           |
-| preview | [![(Pre-)Release][Version-Prerelease]][Releases] | Experimental, not production-ready |
-
-Releases follow the [Semantic Versioning (SemVer) system][SemVer].
 
 ## Getting Started
 
@@ -55,7 +48,7 @@ Releases follow the [Semantic Versioning (SemVer) system][SemVer].
   * Click the `Install` button located in the bottom right of the `Package Manager` window.
   * The `XR Legacy Input Helpers` package will now download and install into the project.
 
-### Adding VRTK Prefabs to a project
+### Adding the package to the Unity project manifest
 
 * Navigate to the `Packages` directory of your project.
 * Adjust the [project manifest file][Project-Manifest] `manifest.json` in a text editor.
@@ -83,6 +76,10 @@ Releases follow the [Semantic Versioning (SemVer) system][SemVer].
   ```
 * Switch back to the Unity software and wait for it to finish importing the added package.
 
+### Updating to the latest version
+
+The package will show up in the Unity Package Manager UI once the above steps have been carried out. From then on the package can be updated by selecting the package in the Unity Package Manager and clicking on the `Update` button or using the version selection UI.
+
 ## Documentation
 
 Visit the [Academy] for a collection of educational content to help you get the most out of building spatial computing solutions with the VRTK Prefabs.
@@ -104,28 +101,29 @@ Code released under the [MIT License][License].
 These materials are not sponsored by or affiliated with Unity Technologies or its affiliates. "Unity" is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. and elsewhere.
 
 [VRTK-Image]: https://user-images.githubusercontent.com/1029673/40060519-bb122e8c-584e-11e8-8402-ca168b327671.png
-[Unity]: https://unity3d.com/
-[License]: LICENSE.md
-[Project-Manifest]: https://docs.unity3d.com/Manual/upm-manifestPrj.html
-[Latest-Release]: https://github.com/ExtendRealityLtd/VRTK.Prefabs/releases
 
-[Slack-Badge]: https://img.shields.io/badge/slack-chat-E24663.svg
-[Academy-Badge]: https://img.shields.io/badge/vrtk-academy-3484C6.svg
-[Videos-Badge]: https://img.shields.io/badge/youtube-channel-e52d27.svg
-[Twitter-Badge]: https://img.shields.io/twitter/follow/vr_toolkit.svg?style=flat&label=twitter
+[Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/VRTK.Prefabs.svg
 [Backlog-Badge]: https://img.shields.io/badge/project-backlog-78bdf2.svg
-[License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.svg
+[License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.Prefabs.svg
+[Academy-Badge]: https://img.shields.io/badge/learn-academy-f3aeae.svg
 
-[Slack]: http://invite.vrtk.io
-[Academy]: https://academy.vrtk.io
-[Videos]: http://videos.vrtk.io
-[Twitter]: https://twitter.com/VR_Toolkit
-[Backlog]: http://tracker.vrtk.io
+[Slack-Badge]: https://img.shields.io/badge/slack--E24663.svg?style=social&logo=slack
+[Videos-Badge]: https://img.shields.io/badge/youtube--e52d27.svg?style=social&logo=youtube
+[Twitter-Badge]: https://img.shields.io/badge/twitter--219eeb.svg?style=social&logo=twitter
 
 [Releases]: ../../releases
-[SemVer]: https://semver.org/
-[Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/VRTK.Prefabs.svg
-[Version-Prerelease]: https://img.shields.io/github/release-pre/ExtendRealityLtd/VRTK.Prefabs.svg?label=pre-release&colorB=orange
+[License]: LICENSE.md
+[Backlog]: http://tracker.vrtk.io
+[Academy]: https://academy.vrtk.io
+
+[Slack]: http://invite.vrtk.io
+[Videos]: http://videos.vrtk.io
+[Twitter]: https://twitter.com/VR_Toolkit
+
+[Unity]: https://unity3d.com/
+[Latest-Release]: ../../releases/latest
+[Project-Manifest]: https://docs.unity3d.com/Manual/upm-manifestPrj.html
+
 [Contributing guidelines]: https://github.com/ExtendRealityLtd/.github/blob/master/CONTRIBUTING.md
 [Unity project coding conventions]: https://github.com/ExtendRealityLtd/.github/blob/master/CONVENTIONS/UNITY3D.md
 [Code of Conduct]: https://github.com/ExtendRealityLtd/.github/blob/master/CODE_OF_CONDUCT.md
