@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.1.2](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.1.1...v1.1.2) (2019-10-29)
+
+#### Bug Fixes
+
+* **Locomotion:** disable snap to floor during teleport action ([7193f18](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/7193f18cf45485625d8aa40fc5cdeb60f9ad7c1d))
+  > There was an issue where the Snap To Floor logic would run every update frame utilizing the HMD as the origin of the surface location cast, but when the PlayArea was teleported, the HMD position would not be updated until the next frame due to the underlying SDK positional update needing a frame and then for the headset alias needing to catch up.
+  > 
+  > This caused the Snap To Floor calculation to use the previous headset position as the origin to look for the nearest floor because the Headset alias was still at the old position at that point in the moment process.
+  > 
+  > The fix is to utilize the new EventProcess and when the Teleporting event is emitted to disable the SnapToFloor and the SurfaceLocator within the SnapToFloor so no floor snapping can occur whilst the teleport is in progress. Then upon the Teleported event being emitted to just turn on the SnapToFloor process but to leave the SurfaceLocator still disabled. This means the SnapToFloor MomentProcessor will do a complete run of all the moments to process and the last moment is now set to emit an event which turns on the SurfaceLocator so it is available the next time the moment processor runs.
+
 ### [1.1.1](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.1.0...v1.1.1) (2019-10-28)
 
 #### Bug Fixes
