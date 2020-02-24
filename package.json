@@ -2,7 +2,7 @@
     "name": "io.extendreality.vrtk.prefabs",
     "displayName": "VRTK Prefabs",
     "description": "A collection of productive prefabs for rapidly building spatial computing solutions in the Unity software.",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [
