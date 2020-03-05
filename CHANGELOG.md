@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.1.10](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.1.9...v1.1.10) (2020-03-05)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 1.12.0 to 1.14.0 ([d977447](https://github.com/ExtendRealityLtd/VRTK.Prefabs/commit/d977447a40d16df1bf2157488703f10ce2d5468c))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 1.12.0 to 1.14.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v1.12.0...v1.14.0)
+  > 
+  > Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
 ### [1.1.9](https://github.com/ExtendRealityLtd/VRTK.Prefabs/compare/v1.1.8...v1.1.9) (2020-02-24)
 
 #### Miscellaneous Chores
