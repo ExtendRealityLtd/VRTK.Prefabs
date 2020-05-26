@@ -1,6 +1,10 @@
+## Deprecated Repository
+
+> The VRTK.Prefabs repo has been deprecated and will no longer receive any future updates. The Tilia repos are now recommended to be used in place of the VRTK.Prefabs repo. A complete list of the Tilia repos can be found at https://www.vrtk.io/tilia.html along with installation instructions. Some of the prefabs found in the VRTK.Prefabs repo may not exist at Tilia repos at this time, but they are being worked on in due course and will be supported moving forward.
+
 [![VRTK logo][VRTK-Image]](#)
 
-> ### VRTK Prefabs `v4-beta`
+> ### VRTK Prefabs `deprecated`
 > A collection of productive prefabs for rapidly building spatial computing solutions in the Unity software.
 
 [![Release][Version-Release]][Releases]
@@ -11,12 +15,6 @@
 [![Slack][Slack-Badge]][Slack]
 [![Videos][Videos-Badge]][Videos]
 [![Twitter][Twitter-Badge]][Twitter]
-
-## Beta Disclaimer
-
-The VRTK Prefabs have not yet been released fully are still in a beta phase meaning there may still be undiscovered bugs, missing features and a lack of usable documentation. All of these things are being worked on but progress is slow as there is only one person actively working on these VRTK Prefabs in their spare time so please be patient and respectful. You are free to use the VRTK Prefabs in any way you wish, but if you feel you will struggle figuring stuff out for yourself without detailed documentation then it may be better off if you wait until the full release of the VRTK Prefabs.
-
-The prefabs contained in this repository will eventually be separated out into their own repositories and packages.
 
 ## Introduction
 
