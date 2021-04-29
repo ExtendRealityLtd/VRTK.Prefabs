@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+    timezone: Europe/Berlin
+  open-pull-requests-limit: 10
+  reviewers:
+  - bddckr
+  - thestonefox
+  labels:
+  - dependency-update
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: io.extendreality.zinnia.unity
+    versions:
+    - 1.29.0
+    - 1.30.0
+    - 1.31.0
+    - 1.31.1
+    - 1.32.0
+    - 1.33.0
+    - 1.34.0
+  commit-message:
+    prefix: chore
+    include: scope
