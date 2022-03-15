@@ -4,7 +4,6 @@ update_configs:
     directory: /
     update_schedule: live
     default_reviewers:
-      - bddckr
       - thestonefox
     default_labels:
       - dependency-update
